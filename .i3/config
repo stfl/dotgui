@@ -350,6 +350,22 @@ bar {
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
+# bindsym $mod+m mark $(i3-input)
+# bindsym $mod+Shift+Mod1+0 mark "alpha", move scratchpad
+# bindsym $mod+Mod1+0 [con_mark="alpha"] scratchpad show
+# bindsym $mod+Shift+Mod1+1 mark "beta", move scratchpad
+# bindsym $mod+Mod1+1 [con_mark="beta"] scratchpad show
+# bindsym $mod+Shift+Mod1+2 mark "gamma", move scratchpad
+# bindsym $mod+Mod1+2 [con_mark="gamma"] scratchpad show
+# bindsym $mod+Shift+Mod1+3 mark "etha", move scratchpad
+# bindsym $mod+Mod1+3 [con_mark="etha"] scratchpad show
+# bindsym $mod+Shift+Mod1+4 mark "fempto", move scratchpad
+# bindsym $mod+Mod1+4 [con_mark="fempto"] scratchpad show
+# bindsym $mod+Shift+Mod1+5 mark "delta", move scratchpad
+# bindsym $mod+Mod1+5 [con_mark="delta"] scratchpad show
+# bindsym $mod+Shift+Mod1+6 mark "zetta", move scratchpad
+# bindsym $mod+Mod1+6 [con_mark="zetta"] scratchpad show
+
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
   client.focused          #556064 #556064 #80FFF9 #FDF6E3
