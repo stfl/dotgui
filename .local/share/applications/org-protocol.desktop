@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=org-protocol
-Exec=/home/stefan/.emacs.d/bin/org-capture %u
+# Exec=/home/stefan/.emacs.d/bin/org-capture %u
+Exec=emacsclient -a emacs -c -F '((name . "doom-capture") (transient . t))' %u
 Type=Application
 Terminal=false
 Categories=System;
