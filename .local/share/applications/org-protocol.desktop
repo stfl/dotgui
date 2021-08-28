@@ -1,7 +1,22 @@
+# [Desktop Entry]
+# Name=org-protocol
+# Exec=/home/stefan/.emacs.d/bin/org-capture '%u'
+# Type=Application
+# Terminal=false
+# Categories=System;
+# MimeType=x-scheme-handler/org-protocol;
+
 [Desktop Entry]
-Name=org-protocol
-Exec=/home/stefan/.emacs.d/bin/org-capture %u
+Name=Org Capture
+GenericName=Text Editor
+Comment=Edit text
+MimeType=x-scheme-handler/org-protocol;
+Exec=emacsclient %u
+# Exec=emacsclient -c %u
+# Exec=emacsclient -a "" -e "(+org-capture/open-frame \"%u\")"
+Icon=emacs
 Type=Application
 Terminal=false
-Categories=System;
-MimeType=x-scheme-handler/org-protocol;
+Categories=Development;TextEditor;
+StartupWMClass=Emacs
+Keywords=Text;Editor;
