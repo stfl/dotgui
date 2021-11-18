@@ -1,3 +1,4 @@
+# tangled from [[roam:setup org-protocol]]
 [Desktop Entry]
 Name=org-protocol
 # Exec=/home/stefan/.emacs.d/bin/org-capture %u
