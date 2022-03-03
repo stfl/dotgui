@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# set the compose key to AltGr (Right Alt)
+setxkbmap -option compose:ralt
+
+eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
+export SSH_AUTH_SOCK
