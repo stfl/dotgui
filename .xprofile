@@ -5,3 +5,9 @@ setxkbmap -option compose:ralt
 
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
 export SSH_AUTH_SOCK
+
+# set mouse accelation with xinput
+xinput --set-prop 13 'libinput Accel Profile Enabled' 1, 0
+xinput --set-prop 13 'libinput Accel Speed' 0.5
+
+. /home/stefan/.screenlayout/2.sh
